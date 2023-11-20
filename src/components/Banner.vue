@@ -3,10 +3,10 @@
     <div class="container-fluid">
       <div class="sf-banner__texts">
         <h1>The fastest way for startups to do any analysis</h1>
-        <p>
+        <h4>
           Equals is the only spreadsheet with built-in connections to any database,
           versioning, and collaboration.
-        </p>
+        </h4>
       </div>
       <div class="sf-banner__form input-group">
         <input
@@ -17,7 +17,7 @@
           aria-describedby="bannerHomeBtn"
         />
         <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" id="bannerHomeBtn">
+          <button class="btn" type="button" id="bannerHomeBtn">
             Start for free
           </button>
         </div>
