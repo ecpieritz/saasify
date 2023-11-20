@@ -1,5 +1,5 @@
 <template>
-  <nav class="sf-banner">
+  <div class="sf-banner">
     <div class="container-fluid">
       <div class="sf-banner__texts">
         <h1>The fastest way for startups to do any analysis</h1>
@@ -24,7 +24,7 @@
       </div>
       <img class="sf-banner__img" :src="img" alt="banner image" />
     </div>
-  </nav>
+  </div>
 </template>
 
 <script>
