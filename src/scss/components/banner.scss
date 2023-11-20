@@ -1,7 +1,7 @@
 .sf-banner{
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 0;
+  margin-top: -86px;
   background-image: url('assets/imgs/sf-banner__bg.png');
   background-size: 100%;
   background-repeat: no-repeat;
