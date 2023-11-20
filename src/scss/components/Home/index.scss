@@ -1,0 +1,14 @@
+.sf-home{
+  &__customers{
+    margin: 80px 0;
+    .container-fluid{
+      .row{
+        justify-content: space-between;
+        align-items: center;
+        .col{
+          width: 150px;
+        }
+      }
+    }
+  }
+}
