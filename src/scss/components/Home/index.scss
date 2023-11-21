@@ -62,4 +62,40 @@
       }
     }
   }
+
+  &__work{
+    background: linear-gradient(107deg, $sf-blue 0%, $sf-blue-dk 100%);
+    color: $sf-white;
+    h2{
+      margin-bottom: 80px;
+      width: 60%;
+    }
+    &__texts{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-right: 80px;
+      &__number{
+        margin-bottom: 30px;
+        p{
+          width: 100px;
+          height: 100px;
+          font-size: 45px;
+          font-weight: 700;
+          background-color: $sf-white;
+          color: $sf-blue-dk;
+          border-radius: 50%;
+          padding: 18px;
+          text-align: center;
+        }
+      }
+    }
+
+    &__video{
+      padding-top: 20px;
+      iframe{
+        border-radius: 20px;
+      }
+    }
+  }
 }

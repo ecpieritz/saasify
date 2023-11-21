@@ -5,17 +5,17 @@
       <div class="row">
         <div class="col-md-6 sf-home__work__texts">
           <div class="row">
-            <div class="col-3 sf-home__work__texts__number">1</div>
+            <div class="col-3 sf-home__work__texts__number"><p>1</p></div>
             <div class="col-9 sf-home__work__texts__description">
               <h3>Create Account</h3>
               <p>After learning about your customer service needs, we will get you up </p>
             </div>
-            <div class="col-3 sf-home__work__texts__number">2</div>
+            <div class="col-3 sf-home__work__texts__number"><p>2</p></div>
             <div class="col-9 sf-home__work__texts__description">
               <h3>Install tracking code</h3>
               <p>After learning about your customer service needs, we will get you up </p>
             </div>
-            <div class="col-3 sf-home__work__texts__number">3</div>
+            <div class="col-3 sf-home__work__texts__number"><p>3</p></div>
             <div class="col-9 sf-home__work__texts__description">
               <h3>Track analytics</h3>
               <p>After learning about your customer service needs, we will get you up </p>
