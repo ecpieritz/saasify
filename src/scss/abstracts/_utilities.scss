@@ -43,4 +43,28 @@
       opacity: 1;
     }
   }
+  &.gradient{
+    font-weight: 600;
+    color: $sf-white;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    text-decoration: none;
+    border: none;
+    background-size: 300% 100%;
+    padding: 20px 40px;
+
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #514fd3, #2e2bc7, #0F0BC7);
+    box-shadow: 0 4px 15px 0 rgba(14, 10, 199, .75);
+    &:hover {
+      background-image: linear-gradient(to right, #0F0BC7,#2e2bc7, #514fd3, #25aae1);
+      background-position: 100% 0;
+      transition: all .4s ease-in-out;
+  }
+  &:focus {
+    outline: none;
+}
+  }
 }

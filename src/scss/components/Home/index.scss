@@ -48,4 +48,18 @@
       }
     }
   }
+
+  &__platform{
+    &__text{
+      padding: 15% 0;
+      p{
+        margin: 32px 0 50px;
+      }
+    }
+    &__img{
+      img{
+        width: 100%;
+      }
+    }
+  }
 }
