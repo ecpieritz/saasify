@@ -25,9 +25,18 @@
 
         <div class="col-md-2 sf-footer__links__socials">
           <h4>Our Socials</h4>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Linkedin</a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Github</a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Instagram</a>
+
+          <div class="sf-footer__links__socials__links">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="@/assets/imgs/sf-social__facebook.png" alt="" />
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="@/assets/imgs/sf-social__instagram.png" alt="" />
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="@/assets/imgs/sf-social__linkedin.png" alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
