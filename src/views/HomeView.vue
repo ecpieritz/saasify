@@ -5,6 +5,7 @@
     <HomeServices />
     <HomePlatform />
     <HomeWork />
+    <HomeTestimonials />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import HomeCustomers from '@/components/Home/HomeCustomers.vue'
 import HomeServices from '@/components/Home/HomeServices.vue'
 import HomePlatform from '@/components/Home/HomePlatform.vue'
 import HomeWork from '@/components/Home/HomeWork.vue'
+import HomeTestimonials from '@/components/Home/HomeTestimonials.vue'
 
 export default {
   name: 'HomeView',
@@ -22,7 +24,8 @@ export default {
     HomeCustomers,
     HomeServices,
     HomePlatform,
-    HomeWork
+    HomeWork,
+    HomeTestimonials
   }
 }
 </script>
