@@ -67,4 +67,12 @@
     outline: none;
 }
   }
+  &.blue{
+    background-color: $sf-blue;
+    padding: 10px;
+    border-radius: 5px;
+    &:hover{
+      background-color: $sf-blue-dk;
+    }
+  }
 }
