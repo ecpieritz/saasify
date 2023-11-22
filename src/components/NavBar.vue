@@ -10,7 +10,7 @@
           <router-link to="/">Home</router-link>
           <router-link to="/about">About</router-link>
           <router-link to="/solutions">Solutions</router-link>
-          <router-link to="/customers">Customers</router-link>
+          <router-link to="/clients">Clients</router-link>
           <router-link to="/contact">Contact</router-link>
         </div>
       </div>
@@ -20,8 +20,7 @@
 
 <script>
 export default {
-  name: 'NavBar',
-  components: {
-  }
-}
+  name: "NavBar",
+  components: {},
+};
 </script>
