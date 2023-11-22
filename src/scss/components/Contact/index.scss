@@ -1,0 +1,21 @@
+.sf-contact{
+  &__form{
+    text-align: left;
+
+    textarea{
+      height: 150px;
+    }
+
+    &__btn{
+      display: flex;
+      justify-content: end;
+      button{
+        &.sf-btn{
+          background-color: transparent;
+          border: none;
+          padding: 15px 40px 20px;
+        }
+      }
+    }
+  }
+}
