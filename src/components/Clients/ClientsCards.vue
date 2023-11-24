@@ -122,6 +122,32 @@
             </p>
           </slot>
         </ClientsItem>
+
+        <ClientsItem
+          :img="require('@/assets/imgs/sf-logo__friends.png')"
+          :client="Friends"
+        >
+          <slot>
+            <p>
+              "A leading e-commerce giant values SaaSify for its comprehensive analytics
+              suite, empowering us to refine our customer experience and drive
+              unprecedented growth"
+            </p>
+          </slot>
+        </ClientsItem>
+
+        <ClientsItem
+          :img="require('@/assets/imgs/sf-logo__farmers.png')"
+          :client="Farmers"
+        >
+          <slot>
+            <p>
+              "A cutting-edge technology company applauds SaaSify's analytics
+              capabilities, enabling us to unlock the full potential of our data for
+              strategic decision-making and innovation."
+            </p>
+          </slot>
+        </ClientsItem>
       </div>
     </div>
   </section>
