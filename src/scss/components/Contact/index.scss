@@ -18,4 +18,34 @@
       }
     }
   }
+
+  &__map{
+    h2{
+      margin: 0 auto 60px;
+      text-align: center;
+      width: 40%;
+    }
+    .row{
+      align-items: center;
+    }
+    &__text{
+      p{
+        font-size: 20px;
+      }
+
+      &__socials{
+        a{
+          margin-right: 10px;
+          img{
+            transition: transform .2s;
+            width: 35px;
+            height: 35px;
+            &:hover {
+              transform: scale(1.3);
+            }
+          }
+        }
+      }
+    }
+  }
 }
