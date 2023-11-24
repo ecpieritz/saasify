@@ -9,18 +9,22 @@
         </div>
       </slot>
     </Banner>
+
+    <ContactMap />
   </main>
 </template>
 
 <script>
 import Banner from "@/components/Banner.vue";
 import ContactForm from "@/components/Contact/ContactForm.vue";
+import ContactMap from "@/components/Contact/ContactMap.vue";
 
 export default {
   name: "BannerView",
   components: {
     Banner,
     ContactForm,
+    ContactMap,
   },
 };
 </script>
