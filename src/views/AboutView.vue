@@ -11,16 +11,19 @@
         </div>
       </slot>
     </Banner>
+    <AboutItems />
   </main>
 </template>
 
 <script>
 import Banner from "@/components/Banner.vue";
+import AboutItems from "@/components/About/AboutItems.vue";
 
 export default {
   name: "AboutView",
   components: {
     Banner,
+    AboutItems,
   },
 };
 </script>
